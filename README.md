@@ -3,7 +3,7 @@ one-simple-table-paging
 
 A small piece of JS code which does simple table pagination.
 
-![OneSimpleTablePaging](https://one-simple-table-paging.googlecode.com/svn/wiki/OneSimpleTablePaging%201.0%20GCPH%20V3.0%20.png)
+![OneSimpleTablePaging](image/OneSimpleTablePagingPoster.png?raw=true)
 
 === Project Description ===
 
