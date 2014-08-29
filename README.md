@@ -3,6 +3,8 @@ one-simple-table-paging
 
 A small piece of JS code which does simple table pagination.
 
+![OneSimpleTablePaging](https://one-simple-table-paging.googlecode.com/svn/wiki/OneSimpleTablePaging%201.0%20GCPH%20V3.0%20.png)
+
 === Project Description ===
 
 Unlike most of the other solutions which require a lot of CSS files and images, this project aims to provide an alternative by just doing all the table pagination in one JS file without using any image. Users just need to put in one JS file in their project to have a simple table pagination setup for them.
