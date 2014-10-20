@@ -14,6 +14,7 @@
  * @param Object userConfigurations:
  *      rowsPerPage - Number - used to determine the starting rows per page. Default: 10
  *      topNav - Boolean - This specifies the desire to have the navigation be a top nav bar
+ * 	rowException - Selector - A selector with which to filter by
  *
  *
  * @requires jQuery v1.7.1 or above
