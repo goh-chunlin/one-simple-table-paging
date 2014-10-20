@@ -25,7 +25,8 @@ $.prototype.extend(
 		'oneSimpleTablePagination': function(userConfigurations) {
 			var defaults = {
 				rowsPerPage : 10,
-				topNav : false
+				topNav : false,
+				rowException : null
 			};
 			defaults = $.extend(defaults, userConfigurations);
 			
@@ -36,7 +37,13 @@ $.prototype.extend(
 				
 				var tblLocation = (defaults.topNav) ? "prev" : "next";
 		
-				var tableRows = $.makeArray($('tbody tr', table));
+				var rowSelector = 'tbody tr';
+				
+				if(defaults.rowException) {
+					rowSelector += ':not("tr'+defaults.rowException+'")';
+				});
+				
+				var tableRows = $.makeArray($(rowSelector, table));
 		  
 				var totalPages = countNumberOfPages(tableRows.length);
 				
