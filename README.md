@@ -32,6 +32,10 @@ By default, rowsPerPage is 10 and topNav is false.
 
  * jQuery Version 1.7.1 or above
 
+## Demo
+
+ * Click here to enjoy the demo with Inori Aizawa: https://db.tt/6DUQxQzv
+
 ## Other Information
 
 The code in this project is based on Ryan Zielke's tablePagination (http://neoalchemy.org/tablePagination.html) which is licensed under the MIT licenses: http://www.opensource.org/licenses/mit-license.php. Button designs are based on Google+ Buttons in CSS design from Pixify (http://pixify.com/blog/use-google-plus-to-improve-your-ui/).
